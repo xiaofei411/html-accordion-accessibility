@@ -1,0 +1,56 @@
+body {
+    padding: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+body .accordion-controls {
+    position: relative;
+    height: auto;
+    margin: 5%;
+}
+body .accordion-controls > h2 {
+    text-align: center;
+    color: black;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+body .accordion-controls > p {
+    padding: 0% 10%;
+}
+body .accordion-controls .accordion-item {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+}
+body .accordion-controls .accordion-item > a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+body .accordion-controls .accordion-item > a i {
+    float: right;
+    margin-top: 2px;
+    color: #ff4d0f;
+}
+body .accordion-controls .accordion-item > a.active {
+    background-color: black;
+    color: #fff;
+}
+body .accordion-controls .accordion-item .content {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: 0;
+    display: none;
+}
+body .accordion-controls .accordion-item .content p {
+    padding: 10px 15px;
+    margin: 0;
+    color: #333;
+}
